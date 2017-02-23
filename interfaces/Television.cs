@@ -16,7 +16,7 @@ namespace interfaces
 
         public void Off()
         {
-            Console.WriteLine("The TV is Off");
+            Console.WriteLine("The TV is On");
         }
 
         public void On()
