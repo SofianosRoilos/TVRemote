@@ -14,7 +14,7 @@ namespace interfaces
             PowerButton powbut = new PowerButton(TV);
             powbut.Execute();
             powbut.Undo();
-            Television vol = new Television(50);
+            Television vol = new Television(40);
             if (vol is IElectronicDevice)
             {
                 vol.VolumeUp();
